@@ -1,0 +1,1 @@
+# Cinema_locations_manager
