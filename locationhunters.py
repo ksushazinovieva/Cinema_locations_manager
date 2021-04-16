@@ -27,7 +27,7 @@ def process(url_):
 
 list = []
 
-for i in range(2295, 300, -1):
+for i in range(17000, 0, -1): #я собирала по частям, чтобы не потерять данные в экстренном случае
     url_new = 'https://locationhunters.ru/new_catalog/detail.php?ID=' + str(i)
     bs_obj = bs(urlopen(url_new), 'html.parser')
     if not (bs_obj.find('font', class_='errortext')):
